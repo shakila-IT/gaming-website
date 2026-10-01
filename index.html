@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>NexusPlay</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #111111;
+      color: #ffffff;
+    }
+    header {
+      background-color: #39ff14;
+      padding: 20px;
+      text-align: center;
+      color: #111111;
+      font-size: 2em;
+      font-weight: bold;
+    }
+    .hero {
+      background: linear-gradient(135deg, #9d4edd, #39ff14);
+      padding: 60px;
+      text-align: center;
+      color: #ffffff;
+    }
+    .section {
+      padding: 40px;
+    }
+    h2 {
+      color: #39ff14;
+      margin-bottom: 20px;
+    }
+    .cards {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 50px;
+    }
+    .card {
+      background-color: #222;
+      border: 2px solid #9d4edd;
+      border-radius: 10px;
+      width: 250px;
+      padding: 15px;
+      text-align: center;
+    }
+    .card img {
+      width: 100%;
+      border-radius: 8px;
+    }
+    .card h3 {
+      color: #39ff14;
+      margin: 10px 0;
+    }
+    .card p {
+      font-size: 0.9em;
+      color: #ccc;
+    }
+    .card button {
+      background-color: #39ff14;
+      border: none;
+      padding: 10px;
+      margin-top: 10px;
+      cursor: pointer;
+      font-weight: bold;
+      border-radius: 5px;
+    }
+    .carousel {
+      background-color: #111111;
+      border: 2px solid #39ff14;
+      padding: 20px;
+      border-radius: 10px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+    }
+    table, th, td {
+      border: 1px solid #9d4edd;
+      padding: 10px;
+      text-align: center;
+    }
+    th {
+      background-color: #39ff14;
+      color: #111111;
+    }
+    footer {
+      background-color: #9d4edd;
+      text-align: center;
+      padding: 20px;
+      color: #ffffff;
+    } -->
+  </style>
+</head>
+
+<body>
+
+  <header>
+    NexusPlay
+  </header>
+
+  <section class="hero">
+    <div id="navbar">
+      <nav>
+        <ul>
+      
+          <li><a href="#popular-games">Popular Games</a></li>
+          <li><a href="#trending-games">Trending Games</a></li>
+          <li><a href="#gaming-categories">Gaming Categories</a></li>
+          <li><a href="#upcoming-games">Upcoming Games</a></li>
+        </ul>
+      </nav>
+    </div>
+  </section>
+  <section class="Home">
+    <div class="home-carousel" aria-label="Featured games carousel">
+      <div class="carousel-slides">
+        <div class="carousel-slide active">
+          <img src="images/GM 1.png" alt="Featured gaming artwork">
+          <div class="carousel-caption"><span>FEATURED</span><h2>Enter the Game</h2><p>Your next adventure starts here.</p></div>
+        </div>
+        <div class="carousel-slide">
+          <img src="images/GM 2.png" alt="NexusPlay gaming world">
+          <div class="carousel-caption"><span>NEXUSPLAY</span><h2>Play Beyond Limits</h2><p>Discover your next favorite game.</p></div>
+        </div>
+        <div class="carousel-slide">
+          <img src="images/galaxy wars.jpg" alt="Galaxy Wars game artwork">
+          <div class="carousel-caption"><span>EXPLORE</span><h2>Galaxy Wars</h2><p>Fight epic battles across the galaxy.</p></div>
+        </div>
+      </div>
+    </div>
+    <h1>Welcome to NexusPlay</h1>
+    <p>Get ready to play the hottest games in the universe.</p>
+  </section>
+
+  <section class="section" id="popular-games">
+    <h2>Popular Games</h2>
+    <div class="container">
+      <div class="card">
+        <img src="images/cyber quest game.jpg" alt="Game 1">
+        <h3>Cyber Quest</h3>
+        <p>Category: RPG</p>
+        <p>Explore futuristic worlds and battle cybernetic foes.</p>
+         <button onclick="alert('Starting game in a few seconds... ENJOY!')">PLAY NOW</button>
+
+      </div>
+      
+      <div class="card">
+        <img src="images/neon racer.jpg" alt="Game 2">
+        <h3>Neon Racer</h3>
+        <p>Category: Racing<br></p>
+        <p>Race through neon-lit streets at breakneck speed.</p>
+         <button onclick="alert('Starting game in a few seconds... ENJOY!')">PLAY NOW</button>
+      </div>
+      <div class="card">
+        <img src="images/galaxy wars.jpg" alt="Game 3">
+        <h3>Galaxy Wars</h3>
+        <p>Category: Action<br></p>
+        <p>Fight epic battles across the galaxy.</p>
+         <button onclick="alert('Starting game in a few seconds... ENJOY!')">PLAY NOW</button>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="trending-games">
+    <h2>Trending Games </h2>
+    <button onclick="alert('Welcome to NexusPlay! Get ready to play!')">Click Me</button>
+    <table>
+      <tr>
+        <th>Game</th>
+        <th>Category</th>
+        
+      </tr>
+      <tr>
+        <td>Shadow Realm</td>
+        <td>Adventure</td>
+      
+      </tr>
+      <tr>
+        <td>Pixel Fighters</td>
+        <td>Arcade</td>
+        
+      </tr>
+      <tr>
+        <td>Dragon Siege</td>
+        <td>Strategy</td>
+      
+      </tr>
+    </table>
+  </section>
+
+  <section class="section" id="gaming-categories">
+    <h2>Gaming Categories</h2>
+    <ul>
+      <li>Action</li>
+      <li>Adventure</li>
+      <li>RPG</li>
+      <li>Racing</li>
+      <li>Strategy</li>
+      <li>Arcade</li>
+    </ul>
+  </section>
+
+  <section class="section" id="upcoming-games">
+    <h2>Upcoming Games</h2>
+      <div class="container">
+      <div class="card">
+        <img src="images/quantum breaker.jpg" alt="Upcoming Game 1"width="100%" height="object-fit:cover;" >
+        <h3>Quantum Breaker</h3>
+        <p>Category: Sci-Fi<br>Release: 2027</p>
+        <p>Manipulate time and space in this thrilling adventure.</p>
+        <button onclick="alert('Starting game in a few seconds... ENJOY!')">PLAY NOW</button>
+      </div>
+      <div class="card">
+        <img src="images/inferno clash game.jpg" alt="Upcoming Game 2">
+        <h3>Inferno Clash</h3>
+        <p>Category: Fighting<br>Release: 2027</p>
+        <p>Battle warriors in fiery arenas of chaos.</p>
+         <button onclick="alert('Starting game in a few seconds... ENJOY!')">PLAY NOW</button>
+      </div>
+    </div>
+  </section>
+
+  <footer> <section class="hero">
+    <div id="navbar">
+      <nav>
+        <ul>
+      
+          <li><a href="#popular-games">Popular Games</a></li>
+          <li><a href="#trending-games">Trending Games</a></li>
+          <li><a href="#gaming-categories">Gaming Categories</a></li>
+          <li><a href="#upcoming-games">Upcoming Games</a></li>
+        </ul>
+      </nav>
+    </div>
+  </section>
+
+    © 2026 NexusPlay | Follow us on social media
+  </footer>
+
+</body>
+
+</html>
